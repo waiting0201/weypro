@@ -93,13 +93,10 @@
   "contact.info.title": "聯絡資訊",
   "contact.info.phone": "電話",
   "contact.info.email": "Email",
-  "contact.info.address": "地址",
-  "contact.info.address.value": "台中市大里區東榮路 358 號",
   "contact.info.hours": "營業時間",
   "contact.info.weekdays": "週一至週五",
   "contact.info.saturday": "週六",
   "contact.info.sunday": "週日",
-  "contact.info.byAppointment": "預約制",
   "contact.info.closed": "休息",
 
   "footer.tagline": "威庭科技 — 軟體開發 · 系統整合 · 智慧升級",

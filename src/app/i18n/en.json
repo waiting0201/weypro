@@ -93,13 +93,10 @@
   "contact.info.title": "Contact Information",
   "contact.info.phone": "Phone",
   "contact.info.email": "Email",
-  "contact.info.address": "Address",
-  "contact.info.address.value": "No. 358, Dongrong Rd., Dali Dist., Taichung City",
   "contact.info.hours": "Business Hours",
   "contact.info.weekdays": "Monday – Friday",
   "contact.info.saturday": "Saturday",
   "contact.info.sunday": "Sunday",
-  "contact.info.byAppointment": "By appointment",
   "contact.info.closed": "Closed",
 
   "footer.tagline": "WEYPRO — Software Development · System Integration · Smart Upgrade",
