@@ -58,7 +58,8 @@
             "outputMode": "server",
             "ssr": {
               "entry": "src/server.ts"
-            }
+            },
+            "outputPath": "dist/weypro"
           },
           "configurations": {
             "production": {
