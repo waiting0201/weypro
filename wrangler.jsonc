@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "weypro",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-08-03",
+  "assets": {
+    "directory": "./dist/weypro/browser",
+    "binding": "ASSETS",
+    "not_found_handling": "single-page-application",
+    "run_worker_first": ["/api/*"]
+  },
+  "observability": {
+    "enabled": true
+  },
+  // First deploy with these routes repoints weypro.com DNS away from Azure.
+  // Comment out to deploy to the *.workers.dev preview URL only.
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "weypro.com", "custom_domain": true },
+    { "pattern": "www.weypro.com", "custom_domain": true }
+  ]
+  // Secrets (set once per environment, never committed):
+  //   npx wrangler secret put RESEND_API_KEY
+  //   npx wrangler secret put TURNSTILE_SECRET_KEY
+}

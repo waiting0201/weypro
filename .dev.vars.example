@@ -1,0 +1,6 @@
+# Copy to .dev.vars for local `wrangler dev`. Never commit the real values.
+# In production these live as Worker secrets:
+#   npx wrangler secret put RESEND_API_KEY
+#   npx wrangler secret put TURNSTILE_SECRET_KEY
+RESEND_API_KEY=
+TURNSTILE_SECRET_KEY=
